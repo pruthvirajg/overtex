@@ -1,0 +1,17 @@
+{
+  "name": "overtex",
+  "version": "0.1.0",
+  "description": "OverTex.ai — MCP skill and server for Overleaf and LaTeX.",
+  "bin": {
+    "overtex": "./src/server.mjs"
+  },
+  "files": [
+    "src",
+    "lib",
+    "skills"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

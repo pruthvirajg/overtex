@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "overtex": {
+      "command": "node",
+      "args": ["src/server.mjs"],
+      "env": {
+        "OVERLEAF_GIT_TOKEN": "olp_your_token",
+        "OVERLEAF_PROJECT_ID": "your_project_id"
+      }
+    }
+  }
+}

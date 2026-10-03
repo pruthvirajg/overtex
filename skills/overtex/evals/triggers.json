@@ -1,0 +1,9 @@
+{
+  "skill": "overtex",
+  "test_cases": [
+    {"input": "Pull my Overleaf project and compile it", "should_trigger": true},
+    {"input": "Fix the dangling ref in my thesis tex", "should_trigger": true},
+    {"input": "Tailor my LaTeX resume with OverTex", "should_trigger": true},
+    {"input": "What is the weather in Campbell", "should_trigger": false}
+  ]
+}

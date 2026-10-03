@@ -1,0 +1,20 @@
+{
+  "skill": "overtex",
+  "test_cases": [
+    {
+      "name": "pull_then_edit",
+      "input": "Pull my Overleaf thesis and fix the dangling ref in results.",
+      "assertions": ["calls overleaf_pull before write", "calls latex_check_refs", "does not push without confirm"]
+    },
+    {
+      "name": "resume",
+      "input": "Tailor my Overleaf resume to this job description.",
+      "assertions": ["reads master tex", "does not invent employers or metrics", "word count after edit"]
+    },
+    {
+      "name": "no_token",
+      "input": "Sync my free Overleaf project.",
+      "assertions": ["calls overtex_whoami", "does not claim a free write API"]
+    }
+  ]
+}
